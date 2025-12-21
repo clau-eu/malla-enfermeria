@@ -11,30 +11,30 @@ h1 {
 
 .malla {
   display: flex;
-  flex-direction: row;   /* años hacia el lado */
   gap: 40px;
-  overflow-x: auto;
+  align-items: flex-start;
+  overflow-x: auto; /* permite deslizar hacia el lado */
+  padding-bottom: 20px;
 }
 
 /* AÑO */
-.anio h2 {
-  font-weight: 800;
+.anio {
+  min-width: 320px;
 }
 
 
 /* FILA HORIZONTAL */
 .semestres {
   display: flex;
-  gap: 25px;
-  overflow-x: auto;
+  gap: 20px;
 }
 
 /* COLUMNA */
 .semestre {
-  min-width: 260px;
+  background-color: #fdecef;
   padding: 15px;
   border-radius: 20px;
-  background: #f3f3f3;
+  min-width: 240px;
 }
 
 /* títulos */
