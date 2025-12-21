@@ -1,60 +1,75 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background: #fdfcfe;
+  background: #fbf7fc;
   padding: 20px;
 }
 
 h1 {
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .malla {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 50px;
 }
 
+/* AÑO */
 .anio h2 {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
+/* FILA HORIZONTAL */
 .semestres {
   display: flex;
-  gap: 20px;
+  gap: 25px;
+  overflow-x: auto;
 }
 
+/* COLUMNA */
 .semestre {
-  background: #f6f6f6;
-  padding: 15px;
-  border-radius: 16px;
   min-width: 260px;
+  padding: 15px;
+  border-radius: 20px;
+  background: #f3f3f3;
 }
 
+/* títulos */
 .semestre h3 {
   text-align: center;
   margin-bottom: 10px;
 }
 
-/* 👉 RAMOS */
+/* RAMOS */
 .semestre p {
-  background: #e6d9ff;
-  margin: 8px 0;
+  background: #e7dcff;
   padding: 8px 12px;
-  border-radius: 20px;
+  margin: 7px 0;
+  border-radius: 18px;
+  text-align: center;
   cursor: pointer;
-  transition: 0.2s;
+  transition: 0.25s;
 }
 
 /* hover */
 .semestre p:hover {
-  background: #d1bfff;
+  transform: scale(1.03);
 }
 
-/* 👉 RAMO APROBADO */
+/* APROBADO */
 .semestre p.aprobado {
-  background: #b197fc;
+  background: #b79cff;
   color: white;
   text-decoration: line-through;
-  opacity: 0.8;
+  opacity: 0.85;
+}
+
+/* COLORES POR AVANCE */
+.semestre.lavanda p {
+  background: #e7dcff;
+}
+
+.semestre.rosado p {
+  background: #ffd6e7;
 }
