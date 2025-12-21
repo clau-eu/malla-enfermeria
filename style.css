@@ -69,9 +69,16 @@ h1 {
 }
 
 /* RAMO APROBADO (lavanda) */
-/* aprobado = lavanda */
-..semestre p.aprobado {
+.aprobado {
   background-color: #c4b5fd;
   text-decoration: line-through;
   color: #4b2e83;
+}
+/* aprobado = lavanda */
+.semestre p.aprobado {
+  .aprobado {
+  background-color: #c4b5fd;
+  text-decoration: line-through;
+  color: #4b2e83;
+}
 }
