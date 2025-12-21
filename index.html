@@ -1,183 +1,85 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Malla Enfermería</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-    }
-
-    h1 {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-    .malla-horizontal {
-      display: flex;
-      flex-direction: column;
-      gap: 40px;
-    }
-
-    .anio h2 {
-      margin-bottom: 10px;
-      color: #2c3e50;
-    }
-
-    .semestres {
-      display: flex;
-      gap: 20px; /* espacio entre semestres */
-    }
-
-    .semestre {
-      background-color: #ecf0f1;
-      padding: 15px;
-      border-radius: 8px;
-      min-width: 250px;
-      flex: 1; /* para que todos los semestres tengan igual ancho */
-    }
-
-    .semestre h3 {
-      margin-bottom: 10px;
-      color: #2980b9;
-    }
-
-    .ramo {
-      padding: 5px 0;
-      border-bottom: 1px solid #bdc3c7;
-    }
-
-    .ramo:last-child {
-      border-bottom: none;
-    }
-  </style>
-</head>
-<body>
-
-<h1>Malla Enfermería</h1>
+<h1>Malla Curricular Enfermería</h1>
 
 <div class="malla-horizontal">
 
   <!-- AÑO 1 -->
-  <section class="anio">
+  <div class="anio">
     <h2>Año 1</h2>
+
     <div class="semestres">
       <div class="semestre">
         <h3>Semestre 1</h3>
-        <div class="ramo">Introducción a la Enfermería (4)</div>
-        <div class="ramo">Anatomía (6)</div>
-        <div class="ramo">Biología (6)</div>
-        <div class="ramo">Química (4)</div>
-        <div class="ramo">Integrado Matemático-Estadístico (6)</div>
-        <div class="ramo">Socioantropología (4)</div>
-        <div class="ramo">Programa de Acompañamiento (2)</div>
+        <div class="ramo">Introducción a la Enfermería</div>
+        <div class="ramo">Anatomía</div>
+        <div class="ramo">Biología</div>
       </div>
 
       <div class="semestre">
         <h3>Semestre 2</h3>
-        <div class="ramo">Enfermería de Ciclo Vital (8)</div>
-        <div class="ramo">Histoembriología (4)</div>
-        <div class="ramo">Bioquímica (4)</div>
-        <div class="ramo">Enfermería Digital (6)</div>
-        <div class="ramo">Psicología del Desarrollo (4)</div>
-        <div class="ramo">Taller de Liderazgo y Emprendimiento (2)</div>
+        <div class="ramo">Proceso Enfermero I</div>
+        <div class="ramo">Fisiología</div>
       </div>
     </div>
-  </section>
+  </div>
 
   <!-- AÑO 2 -->
-  <section class="anio">
+  <div class="anio">
     <h2>Año 2</h2>
+
     <div class="semestres">
       <div class="semestre">
         <h3>Semestre 3</h3>
-        <div class="ramo">Proceso Enfermero I (8)</div>
-        <div class="ramo">Fisiología (6)</div>
-        <div class="ramo">Microbiología y Parasitología (3)</div>
-        <div class="ramo">Epidemiología y Salud Pública (5)</div>
-        <div class="ramo">Pensamiento Crítico (2)</div>
-        <div class="ramo">Metodología de la Investigación (3)</div>
-        <div class="ramo">Formación General 1</div>
+        <div class="ramo">Farmacología</div>
       </div>
 
       <div class="semestre">
         <h3>Semestre 4</h3>
-        <div class="ramo">Proceso Enfermero II (8)</div>
-        <div class="ramo">Fisiopatología (6)</div>
-        <div class="ramo">Farmacología (6)</div>
-        <div class="ramo">Promoción y Educación para la Salud (4)</div>
-        <div class="ramo">Bioética (3)</div>
-        <div class="ramo">Investigación en Enfermería (3)</div>
+        <div class="ramo">Enfermería Médico-Quirúrgica</div>
       </div>
     </div>
-  </section>
-
-  <!-- AÑO 3 -->
-  <section class="anio">
+  </div>
+<!-- AÑO 3 -->
+  <div class="anio">
     <h2>Año 3</h2>
+
     <div class="semestres">
       <div class="semestre">
         <h3>Semestre 5</h3>
-        <div class="ramo">Enfermería Comunitaria y Salud Familiar (11)</div>
-        <div class="ramo">Enfermería Gerontológica (3)</div>
-        <div class="ramo">Enfermería de la Mujer y Recién Nacido (3)</div>
-        <div class="ramo">Enfermería Médico-Quirúrgica (14)</div>
-        <div class="ramo">Electivo Profesional 1 (0)</div>
       </div>
 
       <div class="semestre">
         <h3>Semestre 6</h3>
-        <div class="ramo">Gestión del Cuidado en el Adulto y Persona Mayor Hospitalizada (9)</div>
-        <div class="ramo">Enfermería Geriátrica (6)</div>
-        <div class="ramo">Gestión del Cuidado en la Comunidad (9)</div>
-        <div class="ramo">Gestión y Liderazgo en Servicios de Enfermería (3)</div>
       </div>
     </div>
-  </section>
+  </div>
 
   <!-- AÑO 4 -->
-  <section class="anio">
+  <div class="anio">
     <h2>Año 4</h2>
+
     <div class="semestres">
       <div class="semestre">
         <h3>Semestre 7</h3>
-        <div class="ramo">Enfermería en Urgencia (10)</div>
-        <div class="ramo">Enfermería Oncológica (3)</div>
-        <div class="ramo">Enfermería en el Niño y Adolescente (6)</div>
-        <div class="ramo">Seminario de Investigación I (5)</div>
-        <div class="ramo">Gestión y Liderazgo en Servicios de Salud (3)</div>
       </div>
 
       <div class="semestre">
         <h3>Semestre 8</h3>
-        <div class="ramo">Gestión del Cuidado en Urgencias (9)</div>
-        <div class="ramo">Enfermería en Salud Intercultural (2)</div>
-        <div class="ramo">Gestión del Cuidado en el Niño (9)</div>
-        <div class="ramo">Seminario de Investigación II (6)</div>
-        <div class="ramo">Electivo Profesional 2 (0)</div>
       </div>
     </div>
-  </section>
+  </div>
 
   <!-- AÑO 5 -->
-  <section class="anio">
+  <div class="anio">
     <h2>Año 5</h2>
+
     <div class="semestres">
       <div class="semestre">
         <h3>Semestre 9</h3>
-        <div class="ramo">Internado II (21)</div>
-        <div class="ramo">Diplomado en Calidad y Seguridad en la Atención en Salud (14)</div>
       </div>
 
       <div class="semestre">
         <h3>Semestre 10</h3>
-        <div class="ramo">Examen de Título (3)</div>
       </div>
     </div>
-  </section>
-
+  </div>
 </div>
-
-</body>
-</html>
