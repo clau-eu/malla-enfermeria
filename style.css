@@ -19,25 +19,30 @@ h1 {
 
 /* AÑO */
 .anio {
-  min-width: 320px;
+  margin-bottom: 60px;
 }
 
 
 /* FILA HORIZONTAL */
 .semestres {
-  display: flex;
-  gap: 20px;
-}
+  display: flex;              
+  gap: 30px;
+  align-items: flex-start;
 
 /* COLUMNA */
 .semestre {
   background-color: #fdecef;
-  padding: 15px;
+  padding: 20px;
   border-radius: 20px;
   min-width: 240px;
 }
 
 /* títulos */
+.anio h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
 .semestre h3 {
   text-align: center;
   margin-bottom: 10px;
@@ -45,13 +50,14 @@ h1 {
 
 /* RAMOS - estado normal */
 .semestre p {
-  background: #ffd6e7;   /* rosado más claro */
-  padding: 8px 12px;
-  margin: 7px 0;
-  border-radius: 18px;
+  background-color: #ffd6e8;
+  padding: 10px;
+  border-radius: 999px;
+  margin: 8px 0;
   text-align: center;
   cursor: pointer;
-  transition: 0.25s;
+  transition: all 0.2s ease;
+}
 
 }
 
@@ -62,8 +68,8 @@ h1 {
 
 /* RAMO APROBADO (lavanda) */
 /* aprobado = lavanda */
-.semestre p.aprobado {
-  background: #b8a4ff;
-  color: white;
+..semestre p.aprobado {
+  background-color: #c4b5fd;
   text-decoration: line-through;
+  color: #4b2e83;
 }
