@@ -10,7 +10,6 @@ h1 {
 }
 
 .malla {
-  .malla {
   display: flex;
   flex-direction: row;   /* años hacia el lado */
   gap: 40px;
@@ -19,8 +18,9 @@ h1 {
 
 /* AÑO */
 .anio h2 {
-  margin-bottom: 10px;
+  font-weight: 800;
 }
+
 
 /* FILA HORIZONTAL */
 .semestres {
@@ -45,13 +45,14 @@ h1 {
 
 /* RAMOS - estado normal */
 .semestre p {
-  background: #ffd6e7;   /* rosado pastel */
+  background: #ffd6e7;   /* rosado más claro */
   padding: 8px 12px;
   margin: 7px 0;
   border-radius: 18px;
   text-align: center;
   cursor: pointer;
   transition: 0.25s;
+
 }
 
 /* hover */
@@ -60,8 +61,9 @@ h1 {
 }
 
 /* RAMO APROBADO (lavanda) */
+/* aprobado = lavanda */
 .semestre p.aprobado {
-  background: #b8a4ff;   /* lavanda/morado */
+  background: #b8a4ff;
   color: white;
   text-decoration: line-through;
 }
