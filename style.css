@@ -10,9 +10,11 @@ h1 {
 }
 
 .malla {
+  .malla {
   display: flex;
-  flex-direction: column;
-  gap: 50px;
+  flex-direction: row;   /* años hacia el lado */
+  gap: 40px;
+  overflow-x: auto;
 }
 
 /* AÑO */
