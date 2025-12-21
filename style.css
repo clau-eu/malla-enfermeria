@@ -41,9 +41,9 @@ h1 {
   margin-bottom: 10px;
 }
 
-/* RAMOS */
+/* RAMOS - estado normal */
 .semestre p {
-  background: #e7dcff;
+  background: #ffd6e7;   /* rosado pastel */
   padding: 8px 12px;
   margin: 7px 0;
   border-radius: 18px;
@@ -57,19 +57,9 @@ h1 {
   transform: scale(1.03);
 }
 
-/* APROBADO */
+/* RAMO APROBADO (lavanda) */
 .semestre p.aprobado {
-  background: #b79cff;
+  background: #b8a4ff;   /* lavanda/morado */
   color: white;
   text-decoration: line-through;
-  opacity: 0.85;
-}
-
-/* COLORES POR AVANCE */
-.semestre.lavanda p {
-  background: #e7dcff;
-}
-
-.semestre.rosado p {
-  background: #ffd6e7;
 }
