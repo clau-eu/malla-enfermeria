@@ -25,16 +25,18 @@ h1 {
 
 /* FILA HORIZONTAL */
 .semestres {
-  display: flex;              
+  display: flex;
   gap: 30px;
+  justify-content: center;
   align-items: flex-start;
+}
 
 /* COLUMNA */
 .semestre {
-  background-color: #fdecef;
+  background-color: #fbe7ef;
   padding: 20px;
   border-radius: 20px;
-  min-width: 240px;
+  width: 320px;
 }
 
 /* títulos */
