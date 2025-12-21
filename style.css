@@ -33,11 +33,13 @@ h1 {
 
 /* COLUMNA */
 .semestre {
-  background-color: #fbe7ef;
-  padding: 20px;
-  border-radius: 20px;
-  width: 320px;
+  .semestre {
+  width: 150px;          /* 👈 angosto como el video */
+  padding: 10px;
+  border-radius: 18px;
+  background: #f3b7c8;   /* rosado suave */
 }
+
 
 /* títulos */
 .anio h2 {
@@ -53,9 +55,9 @@ h1 {
 /* RAMOS - estado normal */
 .semestre p {
   background-color: #ffd6e8;
-  padding: 10px;
+  padding: 4px 6px;
   border-radius: 999px;
-  margin: 8px 0;
+  margin: 4px 0;
   text-align: center;
   cursor: pointer;
   transition: all 0.2s ease;
