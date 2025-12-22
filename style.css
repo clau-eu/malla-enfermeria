@@ -10,9 +10,9 @@ body {
 /* ===== MALLA HORIZONTAL ===== */
 .malla {
   display: flex;
-  flex-direction: column;
-  gap: 60px;
-  min-width: 1600px; /* 👈 fuerza ancho grande */
+  flex-direction: row;
+  gap: 80px;
+  min-width: max-content; /* 👈 fuerza ancho grande */
 }
 
 /* ===== AÑO ===== */
