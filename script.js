@@ -1,3 +1,4 @@
+alert("JS CARGADO");
 document.addEventListener("DOMContentLoaded", () => {
   const ramos = document.querySelectorAll(".semestre p");
 
