@@ -1,7 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const ramos = document.querySelectorAll(".semestre p");
-
-  ramos.forEach(ramo => {
+  document.querySelectorAll(".semestre p").forEach(ramo => {
     ramo.addEventListener("click", () => {
       ramo.classList.toggle("aprobado");
     });
