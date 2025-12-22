@@ -70,7 +70,8 @@ body {
 
 /* ===== APROBADO ===== */
 .semestre p.aprobado {
-  background-color: #c4b5fd;
+  background-color: #b9a5ff; /* morado aprobado */
   text-decoration: line-through;
-  color: #4b2e83;
+  color: #5a4a9c;
+  font-weight: bold;
 }
