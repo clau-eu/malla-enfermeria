@@ -1,82 +1,67 @@
+/* ===== GENERAL ===== */
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background: #fbf7fc;
-  padding: 20px;
+  background: #fdfaf7;
+  font-family: Arial, sans-serif;
 }
 
-h1 {
-  text-align: center;
-  margin-bottom: 30px;
-}
-
+/* ===== MALLA HORIZONTAL ===== */
 .malla {
   display: flex;
   gap: 40px;
-  align-items: flex-start;
-  overflow-x: auto; /* permite deslizar hacia el lado */
-  padding-bottom: 20px;
+  padding: 20px;
 }
 
-/* AÑO */
+/* ===== AÑO ===== */
 .anio {
-  margin-bottom: 60px;
-}
-
-
-/* FILA HORIZONTAL */
-.semestres {
   display: flex;
-  gap: 30px;
-  justify-content: center;
-  align-items: flex-start;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* COLUMNA */
-.semestre {
-  .semestre {
-  width: 150px;          /* 👈 angosto como el video */
-  padding: 10px;
-  border-radius: 18px;
-  background: #f3b7c8;   /* rosado suave */
-}
-
-
-/* títulos */
 .anio h2 {
   font-weight: bold;
-  margin-bottom: 20px;
-}
-
-.semestre h3 {
-  text-align: center;
   margin-bottom: 10px;
 }
 
-/* RAMOS - estado normal */
+/* ===== SEMESTRES ===== */
+.semestres {
+  display: flex;
+  gap: 15px;
+}
+
+/* ===== CUADRO DEL SEMESTRE ===== */
+.semestre {
+  width: 160px;
+  background: #f3b7c8;
+  padding: 12px;
+  border-radius: 20px;
+}
+
+.semestre h3 {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+/* ===== RAMO (PASTILLA) ===== */
 .semestre p {
   background-color: #ffd6e8;
-  padding: 4px 6px;
+  padding: 8px;
   border-radius: 999px;
-  margin: 4px 0;
+  margin: 6px 0;
   text-align: center;
   cursor: pointer;
+  font-size: 12px;
   transition: all 0.2s ease;
 }
 
-}
-
-/* hover */
+/* ===== HOVER ===== */
 .semestre p:hover {
+  background-color: #f9b8d1;
   transform: scale(1.03);
 }
 
-/* RAMO APROBADO (lavanda) */
-.aprobado {
-  background-color: #c4b5fd;
-  text-decoration: line-through;
-  color: #4b2e83;
-}
-/* aprobado = lavanda */
+/* ===== APROBADO ===== */
 .semestre p.aprobado {
   background-color: #c4b5fd;
   text-decoration: line-through;
