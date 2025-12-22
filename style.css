@@ -1,14 +1,18 @@
 /* ===== GENERAL ===== */
 body {
-  background: #fdfaf7;
   font-family: Arial, sans-serif;
+  background-color: #fff8f6;
+  margin: 0;
+  padding: 20px;
+  overflow-x: auto;   /* 👈 CLAVE */
 }
 
 /* ===== MALLA HORIZONTAL ===== */
 .malla {
   display: flex;
-  gap: 40px;
-  padding: 20px;
+  flex-direction: column;
+  gap: 60px;
+  min-width: 1600px; /* 👈 fuerza ancho grande */
 }
 
 /* ===== AÑO ===== */
@@ -19,22 +23,25 @@ body {
 }
 
 .anio h2 {
-  font-weight: bold;
-  margin-bottom: 10px;
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 30px;
 }
 
 /* ===== SEMESTRES ===== */
 .semestres {
   display: flex;
-  gap: 15px;
+  gap: 40px;
+  justify-content: center;
 }
 
 /* ===== CUADRO DEL SEMESTRE ===== */
 .semestre {
-  width: 160px;
-  background: #ffd6e8;
-  padding: 12px;
-  border-radius: 20px;
+  background-color: #f8b7c7; /* fondo claro */
+  padding: 20px;
+  border-radius: 25px;
+  width: 260px;              /* 👈 angosto */
+  flex-shrink: 0;            /* 👈 NO se aplasta */
 }
 
 .semestre h3 {
