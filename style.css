@@ -32,7 +32,7 @@ body {
 /* ===== CUADRO DEL SEMESTRE ===== */
 .semestre {
   width: 160px;
-  background: #f3b7c8;
+  background: #ffd6e8;
   padding: 12px;
   border-radius: 20px;
 }
@@ -45,7 +45,7 @@ body {
 
 /* ===== RAMO (PASTILLA) ===== */
 .semestre p {
-  background-color: #ffd6e8;
+  background-color: #f3b7c8;
   padding: 8px;
   border-radius: 999px;
   margin: 6px 0;
